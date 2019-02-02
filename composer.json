@@ -1,0 +1,7 @@
+{
+    "name": "thomas/eskuvo",
+    "type": "project",
+    "require": {
+        "google/apiclient": "2.0"
+    }
+}

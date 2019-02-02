@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body{
+    background-image: url("kepek/elso.jpg");
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mainContainer{
+    text-align: center;
+}
+#header{
+    margin-top: 5px;
+}
+.cim{
+    width: 40%;
+    display: block;
+    float: left;
+    font-size: 20px;
+    color: gray;
+}
+.menuContainer{
+    width: 60%;
+    display: block;
+    float: left;
+
+}
+a{
+    text-decoration: none;
+    color: gray;
+    padding: 4px;
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+#urlapContainer{
+    width: 100%;
+}
+#urlap{
+    text-align: center;
+    margin-right: 60%;
+    padding-top: 10%;
+    color: gray;
+}
+.beviteli{
+    width: 258px;
+}
+.BoroGabor{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: -10%;
+    font-size: 20px;
+    color: black;
+}
+@media only screen and (max-width: 800px) {
+
+    .cim{
+        width: 100%;
+        display: block;
+        float: none;
+        background-color: yellowgreen;
+    }
+    .menuContainer{
+        width: 100%;
+        display: inline;
+        float: none;
+        background-color: pink
+    }
+    a{
+        padding: 5px;
+        margin-top: 5px;
+    }
+    #urlapContainer{
+        padding-top: 10%;
+    }
+    #urlap{
+        text-align: center;    
+        width:300px;
+        margin: 0 auto 0 auto;
+    }
+    .beviteli{
+        width: 258px;
+    }
+    .BoroGabor{
+        left: 5px;
+        font-size: 2px;
+        color: gold;
+        text-shadow: 2px 2px black;
+    }
+}
